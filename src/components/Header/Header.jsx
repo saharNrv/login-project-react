@@ -4,13 +4,13 @@ import { NavLink } from 'react-router-dom';
 export default function Header() {
   return (
     <div>
-       <Navbar bg="dark" data-bs-theme="dark">
+       <Navbar  style={{background:'#f5f0fe',boxShadow:'0 0 12px #ccc'}}>
         <Container>
           <Navbar.Brand href="#home">Navbar</Navbar.Brand>
           <Nav className="me-auto">
-            <NavLink style={{color:'#fff',marginLeft:30}} to="/home">Home</NavLink>
-            <NavLink style={{color:'#fff',marginLeft:30}} to="/users">User List</NavLink>
-            <NavLink style={{color:'#fff',marginLeft:30}} to="/form">form</NavLink>
+            <NavLink style={{color:'#000',marginLeft:30}} to="/home">Home</NavLink>
+            <NavLink style={{color:'#000',marginLeft:30}} to="/users">User List</NavLink>
+            <NavLink style={{color:'#000',marginLeft:30}} to="/form">form</NavLink>
           </Nav>
         </Container>
       </Navbar>
